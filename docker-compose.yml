@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    build: .
+    user: docker
+    ports:
+      - "3000:80"
