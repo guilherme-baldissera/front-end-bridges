@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 
 const Container = styled.div`
         background-image: url(${background});
-        height: -webkit-fill-available;
+        height: 100vh;
         background-size: cover;
         display: flex;
         flex-flow: column;
